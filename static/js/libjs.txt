@@ -1,0 +1,14 @@
+/lib/js/jquery-3.2.1/jquery-3.2.1.js
+/lib/js/tether-1.3.3/tether.js
+/lib/js/bootstrap-4/bootstrap.js
+/lib/js/jquery.history-master/jquery.history.js
+/lib/js/moment/moment.js
+/lib/js/typeahead.js
+/lib/js/sockjs/sockjs.js
+/lib/js/stomp/stomp.js
+/lib/js/autosize/autosize.js
+/lib/js/purl-master/purl.js
+/lib/js/mustache/mustache.js
+/lib/js/javascript-debug-master/ba-debug.js
+/lib/js/perfect-scrollbar/perfect-scrollbar.jquery.js
+/lib/js/jquery-validation/jquery.validate.js

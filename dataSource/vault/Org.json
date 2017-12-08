@@ -1,0 +1,103 @@
+{
+  "name" : "Org",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "createdAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.createdAt"
+    },
+    {
+      "name" : "deleted",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "deleted",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.deleted"
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "deletedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.deletedAt"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "indexed" : true,
+      "length" : 255,
+      "nameInDS" : "name",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.name",
+      "unique" : true
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "updatedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.updatedAt"
+    },
+    {
+      "name" : "authenticationSvcCode",
+      "type" : "Integer",
+      "length" : 10,
+      "nameInDS" : "authenticationSvcCode",
+      "typeInDS" : "INT",
+      "uid" : "AttributeM.authenticationSvcCode"
+    },
+    {
+      "name" : "displayName",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "displayName",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.displayName"
+    },
+    {
+      "name" : "logoFile",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "logoFile",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.logoFile"
+    },
+    {
+      "name" : "colorTheme",
+      "type" : "String",
+      "length" : 80,
+      "uid" : "AttributeM.colorTheme"
+    },
+    {
+      "name" : "fontFamily",
+      "type" : "String",
+      "uid" : "AttributeM.fontFamily"
+    },
+    {
+      "name" : "fontSize",
+      "type" : "Short",
+      "uid" : "AttributeM.fontSize",
+      "defaultValue" : -1
+    }
+  ],
+  "displayName" : "Org",
+  "nameInDS" : "org_tbl",
+  "primaryKeyGenerator" : "serial",
+  "tableCreateable" : true,
+  "uid" : "ClassM.org_tbl"
+}

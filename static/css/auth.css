@@ -1,0 +1,74 @@
+.login-fail-alert {
+  display: none;
+}
+
+.login-failed .login-fail-alert {
+  display: block;
+}
+
+.main-content-area.auth-page {
+  padding-top: 0px;
+}
+
+.trillo-root-elem {
+  display: flex;
+  flex-direction: column;
+}
+
+.trillo-application {
+  padding-top: 85px;
+  padding-bottom: 50px;
+  flex-grow : 1;
+  min-height: initial !important;
+}
+
+.sign-up-message, .forgot-password-message, .reset-password-message {
+  font-size: 15px;
+  line-height: 20px;
+  padding:15px;
+}
+
+.forgot-password-form, .reset-password-form {
+  padding-bottom: 15px;
+}
+
+.forgot-password-link {
+  font-size: 11px;
+  margin-right: 10px;
+  float: right;
+}
+
+.login-box {
+  padding-top: 10px;
+}
+
+.singup-button-container {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 320px;
+  text-align:center;
+}
+
+.sign-up-form {
+  padding-bottom: 10px;
+}
+
+.signup-prompt {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+.signup-tou-msg {
+  padding: 10px 0px;
+  font-size: 11px;
+}
+
+.redo-fotgot-password {
+  padding: 15px 0px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+h5 {
+  line-height: 1.3em;
+}

@@ -1,0 +1,6 @@
+/css/2.0/trillo.css
+/css/2.0/trillo-theme.css
+/css/2.0/trillo-bootstrap4.css
+/manage/static/css/material-design-iconic-font.css
+/manage/static/css/animate.css
+/manage/static/css/app.css

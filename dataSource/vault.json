@@ -1,0 +1,11 @@
+{
+  "name" : "vault",
+  "useDefault" : true,
+  "properties" : {
+    "url" : "jdbc:mysql://mysqlhost/rv?characterEncoding=UTF-8",
+    "username" : "rv",
+    "password" : "rv@pa$$"
+  },
+  "type" : "mysql",
+  "uid" : "DataSourceM.vault"
+}

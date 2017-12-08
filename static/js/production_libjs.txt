@@ -1,0 +1,2 @@
+/dist/js/lib2.0.min.js
+/lib/js/jquery-validation/jquery.validate.min.js

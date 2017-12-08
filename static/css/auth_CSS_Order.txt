@@ -1,0 +1,2 @@
+shared/static/css/page.css
+auth/static/css/auth.css
